@@ -704,12 +704,10 @@ input {
 }
 
 .modal-input:focus {
-    border: 1px solid #4d5ae5;
     border: #4d5ae5;
 }
 
 .modal-input:focus+.modal-file-icon {
-    border: 1px solid #4d5ae5;
     fill: #4d5ae5;
 }
 
