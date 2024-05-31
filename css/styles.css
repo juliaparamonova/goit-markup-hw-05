@@ -552,7 +552,7 @@ ul {
     border-radius: 4px;
 }
 
-.sub {
+.subscribe-input-back {
     background-color: transparent;
 }
 
@@ -892,4 +892,11 @@ input[type="checkbox"]:checked+.checkbox-user-label>.checkbox-user {
     line-height: 117%;
     letter-spacing: 0.04em;
     color: #8e8f99;
+}
+
+.contacts-checkbo-link {
+    line-height: 1.33;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #4d5ae5;
 }
