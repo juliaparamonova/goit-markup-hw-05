@@ -693,7 +693,7 @@ ul {
         sans-serif;
     font-weight: 500;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
@@ -725,7 +725,7 @@ ul {
 
 .modal-contacts {
 
-    padding: 8px;
+    /* padding: 8px; */
     max-width: 408px;
 }
 
