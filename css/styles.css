@@ -846,11 +846,13 @@ button {
     border: 1px solid rgba(46, 47, 66, 0.4);
 } */
 
-.checkbox-user,
-.modal-icon {
+.checkbox-user {
     fill: #f4f4fd;
 }
 
+.modal-icon {
+    fill: transparent;
+}
 
 .checkbox-link {
     line-height: 133%;
