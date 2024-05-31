@@ -666,6 +666,8 @@ ul {
 
 .modal-close {
     fill: #2e2f42;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .modal-button:hover>.modal-close {
@@ -815,7 +817,6 @@ button {
     outline: transparent;
     resize: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property: border-color;
 }
 
 .comment-input:focus {
