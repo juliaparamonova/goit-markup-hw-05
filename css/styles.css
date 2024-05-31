@@ -646,6 +646,7 @@ ul {
     position: absolute;
     right: 24px;
     top: 24px;
+    padding: 0;
     border-radius: 50%;
     display: flex;
     align-items: center;
