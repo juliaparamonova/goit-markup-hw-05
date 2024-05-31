@@ -661,28 +661,28 @@ ul {
 .modal-button:hover {
     background-color: #404bbf;
     border: none;
-    /* fill: #fff; */
 }
 
 .modal-button:focus {
     background-color: #404bbf;
     border: none;
-    /* fill: #fff; */
 }
-
 
 .modal-close {
     fill: #2e2f42;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-button:hover>.modal-close {
+.modal-button:hover .modal-close {
+    border: none;
     fill: #fff;
 }
 
-.modal-button:focus>.modal-close {
+.modal-button:focus .modal-close {
     fill: #fff;
+    border: none;
 }
+
 
 
 /* .modal-button:hover>.modal-close,
@@ -867,11 +867,11 @@ button {
     color: #4d5ae5;
 }
 
-input[type="checkbox"]:checked+.checkbox-user {
+/* input[type="checkbox"]:checked+.checkbox-user {
     background-color: #404bbf;
     border: none;
-    /* fill: #f4f4fd; */
-}
+    fill: #f4f4fd;
+} */
 
 .checkbox:checked+.checkbox-user-label>.checkbox-user {
     background-color: #404bbf;
