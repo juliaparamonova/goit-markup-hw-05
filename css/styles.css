@@ -671,13 +671,11 @@ ul {
 }
 
 .modal-button:hover>.modal-close {
-    border: none;
     fill: #fff;
 }
 
 .modal-button:focus>.modal-close {
     fill: #fff;
-    border: none;
 }
 
 
