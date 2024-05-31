@@ -39,7 +39,6 @@ ul {
 
 .header {
     border-bottom: 1px solid #e7e9fc;
-    display: flex;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -48,9 +47,6 @@ ul {
 .container-header {
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    padding-left: 156px;
     max-width: 1440px;
 }
 
@@ -60,10 +56,14 @@ ul {
     padding: 0 15px;
 }
 
+
+
 .header-nav {
     display: flex;
     align-items: center;
     margin-right: auto;
+    justify-content: space-between;
+
 }
 
 .logo {
@@ -75,8 +75,8 @@ ul {
     font-weight: 700;
     text-transform: uppercase;
     margin-right: 76px;
-    margin-top: 24px;
-    margin-bottom: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .logo-item {
@@ -621,11 +621,11 @@ ul {
 }
 
 
-.modal-overlay.is-open {
+/* .modal-overlay.is-open {
     visibility: visible;
     opacity: 1;
     pointer-events: auto;
-}
+} */
 
 
 .modal {
