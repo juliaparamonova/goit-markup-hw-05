@@ -657,21 +657,16 @@ ul {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-close {
-    fill: #2e2f42;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.modal-button:hover {
-    background-color: #404bbf;
-    border: none;
-}
-
+.modal-button:hover,
 .modal-button:focus {
     background-color: #404bbf;
     border: none;
 }
 
+.modal-close {
+    fill: #2e2f42;
+}
 
 .modal-button:hover>.modal-close {
     border: none;
@@ -682,7 +677,6 @@ ul {
     fill: #fff;
     border: none;
 }
-
 
 
 /* .modal-button:hover>.modal-close,
@@ -753,6 +747,10 @@ input {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-input:focus {
+    border-color: #4D5AE5;
+}
+
 .modal-file-icon {
     position: absolute;
     top: 50%;
@@ -762,19 +760,10 @@ input {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-input:focus {
-    border-color: #4D5AE5;
-}
-
 .modal-input:focus+.modal-file-icon {
     fill: #4D5AE5;
 }
 
-/* ??? */
-
-.modal-input:focus>.modal-file-icon {
-    fill: #4D5AE5;
-}
 
 .modal-wrapper {
     margin-bottom: 8px;
@@ -838,6 +827,7 @@ button {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
+
 }
 
 .checkbox-user {
@@ -859,7 +849,8 @@ button {
     border: 1px solid rgba(46, 47, 66, 0.4);
 } */
 
-.checkbox-user .modal-icon {
+.checkbox-user,
+.modal-icon {
     fill: #f4f4fd;
 }
 
@@ -879,18 +870,17 @@ button {
 
 .checkbox:checked+.checkbox-user-label>.checkbox-user {
     background-color: #404bbf;
-    border: none;
+    border: transparent;
     fill: #f4f4fd;
 }
-
 
 .modal-textarea {
     margin-bottom: 16px;
 }
 
-/* .modal-check {
+.modal-check {
     margin-bottom: 24px;
-} */
+}
 
 
 .checkbox-user-label {
