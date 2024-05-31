@@ -613,7 +613,6 @@ ul {
     visibility: hidden;
     pointer-events: none;
     opacity: 0;
-    pointer-events: none;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -647,7 +646,6 @@ ul {
     position: absolute;
     right: 24px;
     top: 24px;
-    padding: 0;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -667,7 +665,6 @@ ul {
 .modal-close {
     fill: #2e2f42;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 
 .modal-button:hover>.modal-close {
@@ -676,6 +673,12 @@ ul {
 
 .modal-button:focus>.modal-close {
     fill: #fff;
+}
+
+.modal-box {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 
@@ -719,9 +722,7 @@ ul {
 }
 
 .modal-contacts {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+
     padding: 8px;
     max-width: 408px;
 }
