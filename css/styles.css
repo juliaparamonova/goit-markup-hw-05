@@ -30,7 +30,6 @@ ul {
     margin: 0;
 }
 
-/*  */
 /* #region header */
 
 .header {
@@ -657,7 +656,11 @@ ul {
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.modal-button:hover,
+.modal-button:hover {
+    background-color: #404bbf;
+    border: none;
+}
+
 .modal-button:focus {
     background-color: #404bbf;
     border: none;
@@ -680,13 +683,6 @@ ul {
     display: flex;
     flex-direction: column;
 }
-
-
-/* .modal-button:hover>.modal-close,
-.modal-button:focus>.modal-close {
-    fill: #fff;
-    background-color: #404bbf;
-} */
 
 .modal-title {
     font-family: "Roboto",
@@ -724,8 +720,6 @@ ul {
 }
 
 .modal-contacts {
-
-    /* padding: 8px; */
     max-width: 408px;
 }
 
@@ -766,7 +760,6 @@ input {
 .modal-input:focus+.modal-file-icon {
     fill: #4D5AE5;
 }
-
 
 .modal-wrapper {
     margin-bottom: 8px;
